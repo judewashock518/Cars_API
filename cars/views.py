@@ -3,6 +3,7 @@ from rest_framework.response import Response
 from rest_framework import status 
 from .serializers import CarSerializer
 from .models import Car
+
 @api_view(['GET', 'POST'])
 def cars_list(request):
 
